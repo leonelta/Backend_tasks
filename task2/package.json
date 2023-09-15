@@ -1,18 +1,35 @@
 {
-  "name": "task2",
+  "name": "nodejs-crud-api",
   "version": "1.0.0",
-  "description": "Building a rest api that performs all the crud operations",
+  "description": "Node.js, Express and MongodB: Create a Restfull API with images upload",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "karen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SydCodeur/nodejs-express-mongodb.git"
+  },
+  "keywords": [
+    "nodejs express",
+    "express mongodb",
+    "crud express mongodb",
+    "image upload nodejs express mongodb",
+    "rest api",
+    "sydcodeur",
+    "Didier senou"
+  ],
+  "author": "Didier Senou alias SydCodeur",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SydCodeur/nodejs-express-mongodb/issues"
+  },
+  "homepage": "https://github.com/SydCodeur/nodejs-express-mongodb#readme",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongodb": "^6.0.0",
-    "mongoose": "^7.5.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2"
   }
 }
