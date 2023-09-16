@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const playerSchema = mongoose.Schema(
     {
         name: { type: String },
-        email: { type: String },
+        age: { type: String },
+        bio: { type: String },
     },
     {
         timestamps: true
